@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# Corp Comment Project (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1920" alt="Screenshot 2025-03-24 at 2 53 13 PM" src="https://github.com/user-attachments/assets/fb738731-6e65-4180-b317-a1fad11ad8ec" />
 
-Currently, two official plugins are available:
+## Motivation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I wanted to create this project to further hone the concepts learned in React.js while also learning about the React Context API and Zustand. I did not take part in the creation of the CSS file on this project and was exclusively focused on the React.js fundamentals along with other new technologies mentioned above.
 
-## Expanding the ESLint configuration
+## Description
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The website is a simple review/feedback website where users can drop feedback on various companies they want to speak to. Users can write their feedback with the #company-name so that the review can be directed to the right company. The review is also stored in an API and all reviews are fetched from the same API. I did not make the API nor the CSS portion of the project, but I focused exclusively on the React.JS / Zustand portion of the project. Additionally, users can expand the reviews if not all of the text fits nicely into their review section and can upvote on reviews. Updates to the upvotes are not recorded to the API.
 
-- Configure the top-level `parserOptions` property like this:
+## Video
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+https://github.com/user-attachments/assets/48540b67-215d-480f-9f1e-5268a22a9bd5
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tech Stack
+
+React.JS, Zustand
+
+## How To Run The Website
+
+Please run "npm install" first to install all dependencies needed and then run "npm run dev"
+
+## Disclaimer
+ 
+This project was done with guidance of the ByteGrad course which can be found here! https://bytegrad.com/
