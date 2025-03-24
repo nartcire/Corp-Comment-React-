@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/48540b67-215d-480f-9f1e-5268a22a9bd5
 
 ## Tech Stack
 
-React.JS, Zustand
+React.JS, Zustand, Typescript
 
 ## How To Run The Website
 
